@@ -199,4 +199,4 @@ helm uninstall episilia
 1. Check AVX support in the local Machine
    On linux (or unix machines) the information about your cpu is in /proc/cpuinfo. You can extract information from there by     hand, or with a grep command (grep flags /proc/cpuinfo).
 Also most compilers will automatically define __AVX2__ so you can check for that too.
-2. vCPUs - 2,Mem - 8gb (Preferably t2-large in AWS)
+2. vCPUs - 2,Mem - 8gb (Preferably t2-large in AWS).

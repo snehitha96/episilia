@@ -1,4 +1,4 @@
-## **EPISILIA**
+## **HELM INSTALLATION GUIDE**
 ### **Prerequisites**:
 The following prerequisites are required to install Episilia.
 ```

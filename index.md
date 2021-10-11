@@ -36,15 +36,15 @@ $ helm repo list or helm repo ls
   NAME        URL 
   episilia   https://episilia.gitlab.io/episilia-helm/release
 ```
- #### **Searching for charts in the repository:**
- ```
- $ helm search repo episilia
- ```
-  #### **Step2: In above picture episilia/episilia-cpanel is the master chart. In this master chart's values.yaml file update kafka values and  required global values**
- Inspect the values before installing application use below:
- ```
- $ helm inspect values episilia/episilia-cpanel > episilia_values.yaml
- ```
+#### **Searching for charts in the repository:**
+```
+$ helm search repo episilia
+```
+#### **Step2: In above picture episilia/episilia-cpanel is the master chart. In this master chart's values.yaml file update kafka values and  required global values**
+Inspect the values before installing application use below:
+```
+$ helm inspect values episilia/episilia-cpanel > episilia_values.yaml
+```
  Update values file with your values in the global field and  We can pass values file (episilia.values) while installing the application.
 The global values are :
 
